@@ -47,4 +47,10 @@
 
 .text_logo {
   color: $chess-blanc;
+
+  //En dispositius petits ocumtem el Logo
+  @include phone {
+    display: none;
+  }
+
 }
