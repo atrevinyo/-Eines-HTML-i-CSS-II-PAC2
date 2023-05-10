@@ -40,12 +40,6 @@
   margin-right: 4px;
 }
 
-.text_logo {
+.logo {
   color: $chess-blanc;
-
-  //En dispositius petits ocumtem el Logo
-  @include phone {
-    display: none;
-  }
-
 }

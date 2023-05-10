@@ -9,3 +9,9 @@
     background-color: $chess-bg-ft;
   }
 
+  .logofooter {
+    //En dispositius petits ocultem el Logo del footer
+    @include phone {
+      display: none;
+    }
+  }
