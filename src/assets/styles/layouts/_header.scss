@@ -11,6 +11,11 @@
   justify-content: space-between;
   justify-items: center;
   height: 90px;
+
+  @include phone {
+    justify-content: center;
+  }
+
 }
 
 
@@ -19,6 +24,10 @@
   grid-auto-flow: column;
   gap: 1em;
   list-style: none;
+
+  @include phone {
+    gap: 0.5em;
+  }
 }
 
 .nav_link {
